@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068DB912E2DEB819221D8A07 /* libPods-BookCollectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A67BA72221F86A502122213 /* libPods-BookCollectionTests.a */; };
+		6311279B1EEA999900CE4EDF /* BookAnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631127941EEA999900CE4EDF /* BookAnalyticsViewController.m */; };
+		6311279C1EEA999900CE4EDF /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631127971EEA999900CE4EDF /* BookListViewController.m */; };
+		6311279D1EEA999900CE4EDF /* BookScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311279A1EEA999900CE4EDF /* BookScannerViewController.m */; };
+		631127A11EEE784400CE4EDF /* BookScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 631127A01EEE784400CE4EDF /* BookScanView.m */; };
+		632F86A91EF11BCB0011BBCD /* BookBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86A81EF11BCB0011BBCD /* BookBaseModel.m */; };
+		632F86AE1EF11DB30011BBCD /* BookEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86AD1EF11DB30011BBCD /* BookEntity.m */; };
+		632F86B41EF12B550011BBCD /* BookAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86B31EF12B550011BBCD /* BookAuthor.m */; };
+		632F86B81EF12D650011BBCD /* BookTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86B71EF12D650011BBCD /* BookTranslator.m */; };
+		632F86BC1EF12DBB0011BBCD /* BookTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86BB1EF12DBB0011BBCD /* BookTag.m */; };
+		632F86C01EF12FE60011BBCD /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86BF1EF12FE60011BBCD /* BookDetailViewController.m */; };
+		632F86E31EF36F330011BBCD /* BookDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86E21EF36F330011BBCD /* BookDBHelper.m */; };
+		632F86E91EF5A2620011BBCD /* BookBaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86E81EF5A2620011BBCD /* BookBaseDAO.m */; };
+		632F86F31EF693E80011BBCD /* BookEntityDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86F21EF693E80011BBCD /* BookEntityDAO.m */; };
+		632F86F61EF694160011BBCD /* BookAuthorDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86F51EF694160011BBCD /* BookAuthorDAO.m */; };
+		632F86FC1EF6944C0011BBCD /* BookTagDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86FB1EF6944C0011BBCD /* BookTagDAO.m */; };
+		632F86FF1EF6B06D0011BBCD /* BookTranslatorDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F86FE1EF6B06D0011BBCD /* BookTranslatorDAO.m */; };
+		632F87031EF6B2840011BBCD /* BookDetailService.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F87021EF6B2840011BBCD /* BookDetailService.m */; };
+		632F87071EF908970011BBCD /* BookListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F87061EF908970011BBCD /* BookListService.m */; };
+		632F870C1EFB8B460011BBCD /* BookListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F870B1EFB8B460011BBCD /* BookListCollectionViewController.m */; };
+		632F870F1EFB8B5D0011BBCD /* BookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F870E1EFB8B5D0011BBCD /* BookListTableViewController.m */; };
+		632F87131EFC06210011BBCD /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F87121EFC06210011BBCD /* BaseTableViewCell.m */; };
+		632F87171EFC06780011BBCD /* BookListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F87161EFC06780011BBCD /* BookListTableViewCell.m */; };
+		632F871A1EFCC7050011BBCD /* BookListTableViewCell+BookEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F87191EFCC7050011BBCD /* BookListTableViewCell+BookEntity.m */; };
+		632F87961F03F81F0011BBCD /* BookFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F87951F03F81F0011BBCD /* BookFPSLabel.m */; };
+		6349F8DF1EEFFCDB00D72C8A /* BookBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349F8DE1EEFFCDB00D72C8A /* BookBaseViewController.m */; };
+		6349F8E41EEFFD4800D72C8A /* BookBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349F8E31EEFFD4800D72C8A /* BookBaseNavigationViewController.m */; };
 		63CE65361ECD384000F2A3AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE65351ECD384000F2A3AA /* main.m */; };
 		63CE65391ECD384000F2A3AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE65381ECD384000F2A3AA /* AppDelegate.m */; };
 		63CE653C1ECD384000F2A3AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE653B1ECD384000F2A3AA /* ViewController.m */; };
@@ -15,6 +42,8 @@
 		63CE65441ECD384000F2A3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CE65421ECD384000F2A3AA /* LaunchScreen.storyboard */; };
 		63CE654F1ECD384000F2A3AA /* BookCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE654E1ECD384000F2A3AA /* BookCollectionTests.m */; };
 		63CE655A1ECD384000F2A3AA /* BookCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE65591ECD384000F2A3AA /* BookCollectionUITests.m */; };
+		83442228130AF5F61B2F9FBE /* libPods-BookCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C480CC8D8A02EDC00039A /* libPods-BookCollection.a */; };
+		9EC208525CE487B8062D6B62 /* libPods-BookCollectionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18751B31B01B6C8E0169D55F /* libPods-BookCollectionUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +64,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18751B31B01B6C8E0169D55F /* libPods-BookCollectionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BookCollectionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436DA1B884FC4B4847DAB657 /* Pods-BookCollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCollectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookCollectionUITests/Pods-BookCollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		494C480CC8D8A02EDC00039A /* libPods-BookCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BookCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A67BA72221F86A502122213 /* libPods-BookCollectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BookCollectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631127931EEA999900CE4EDF /* BookAnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookAnalyticsViewController.h; sourceTree = "<group>"; };
+		631127941EEA999900CE4EDF /* BookAnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookAnalyticsViewController.m; sourceTree = "<group>"; };
+		631127961EEA999900CE4EDF /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
+		631127971EEA999900CE4EDF /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
+		631127991EEA999900CE4EDF /* BookScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookScannerViewController.h; sourceTree = "<group>"; };
+		6311279A1EEA999900CE4EDF /* BookScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookScannerViewController.m; sourceTree = "<group>"; };
+		6311279F1EEE784400CE4EDF /* BookScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookScanView.h; path = ScanView/BookScanView.h; sourceTree = "<group>"; };
+		631127A01EEE784400CE4EDF /* BookScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookScanView.m; path = ScanView/BookScanView.m; sourceTree = "<group>"; };
+		632F86A71EF11BCB0011BBCD /* BookBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookBaseModel.h; path = Model/Base/BookBaseModel.h; sourceTree = "<group>"; };
+		632F86A81EF11BCB0011BBCD /* BookBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookBaseModel.m; path = Model/Base/BookBaseModel.m; sourceTree = "<group>"; };
+		632F86AC1EF11DB30011BBCD /* BookEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookEntity.h; path = Model/Entity/BookEntity.h; sourceTree = "<group>"; };
+		632F86AD1EF11DB30011BBCD /* BookEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookEntity.m; path = Model/Entity/BookEntity.m; sourceTree = "<group>"; };
+		632F86B21EF12B550011BBCD /* BookAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookAuthor.h; path = Model/Author/BookAuthor.h; sourceTree = "<group>"; };
+		632F86B31EF12B550011BBCD /* BookAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookAuthor.m; path = Model/Author/BookAuthor.m; sourceTree = "<group>"; };
+		632F86B61EF12D650011BBCD /* BookTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookTranslator.h; path = Model/Translator/BookTranslator.h; sourceTree = "<group>"; };
+		632F86B71EF12D650011BBCD /* BookTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookTranslator.m; path = Model/Translator/BookTranslator.m; sourceTree = "<group>"; };
+		632F86BA1EF12DBB0011BBCD /* BookTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookTag.h; path = Model/Tag/BookTag.h; sourceTree = "<group>"; };
+		632F86BB1EF12DBB0011BBCD /* BookTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookTag.m; path = Model/Tag/BookTag.m; sourceTree = "<group>"; };
+		632F86BE1EF12FE60011BBCD /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookDetailViewController.h; path = Modules/BookDetail/BookDetailViewController.h; sourceTree = "<group>"; };
+		632F86BF1EF12FE60011BBCD /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookDetailViewController.m; path = Modules/BookDetail/BookDetailViewController.m; sourceTree = "<group>"; };
+		632F86E11EF36F330011BBCD /* BookDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookDBHelper.h; path = BookCollection/Helper/DB/BookDBHelper.h; sourceTree = "<group>"; };
+		632F86E21EF36F330011BBCD /* BookDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookDBHelper.m; path = BookCollection/Helper/DB/BookDBHelper.m; sourceTree = "<group>"; };
+		632F86E71EF5A2620011BBCD /* BookBaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookBaseDAO.h; path = BookCollection/DAO/Base/BookBaseDAO.h; sourceTree = "<group>"; };
+		632F86E81EF5A2620011BBCD /* BookBaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookBaseDAO.m; path = BookCollection/DAO/Base/BookBaseDAO.m; sourceTree = "<group>"; };
+		632F86F11EF693E80011BBCD /* BookEntityDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookEntityDAO.h; path = BookCollection/DAO/Entity/BookEntityDAO.h; sourceTree = "<group>"; };
+		632F86F21EF693E80011BBCD /* BookEntityDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookEntityDAO.m; path = BookCollection/DAO/Entity/BookEntityDAO.m; sourceTree = "<group>"; };
+		632F86F41EF694160011BBCD /* BookAuthorDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookAuthorDAO.h; path = BookCollection/DAO/Author/BookAuthorDAO.h; sourceTree = "<group>"; };
+		632F86F51EF694160011BBCD /* BookAuthorDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookAuthorDAO.m; path = BookCollection/DAO/Author/BookAuthorDAO.m; sourceTree = "<group>"; };
+		632F86FA1EF6944C0011BBCD /* BookTagDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookTagDAO.h; path = BookCollection/DAO/Tag/BookTagDAO.h; sourceTree = "<group>"; };
+		632F86FB1EF6944C0011BBCD /* BookTagDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookTagDAO.m; path = BookCollection/DAO/Tag/BookTagDAO.m; sourceTree = "<group>"; };
+		632F86FD1EF6B06D0011BBCD /* BookTranslatorDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookTranslatorDAO.h; path = BookCollection/DAO/Translator/BookTranslatorDAO.h; sourceTree = "<group>"; };
+		632F86FE1EF6B06D0011BBCD /* BookTranslatorDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookTranslatorDAO.m; path = BookCollection/DAO/Translator/BookTranslatorDAO.m; sourceTree = "<group>"; };
+		632F87011EF6B2840011BBCD /* BookDetailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookDetailService.h; path = BookCollection/Service/BookDetail/BookDetailService.h; sourceTree = "<group>"; };
+		632F87021EF6B2840011BBCD /* BookDetailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookDetailService.m; path = BookCollection/Service/BookDetail/BookDetailService.m; sourceTree = "<group>"; };
+		632F87051EF908970011BBCD /* BookListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListService.h; path = BookCollection/Service/BookList/BookListService.h; sourceTree = "<group>"; };
+		632F87061EF908970011BBCD /* BookListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListService.m; path = BookCollection/Service/BookList/BookListService.m; sourceTree = "<group>"; };
+		632F870A1EFB8B460011BBCD /* BookListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListCollectionViewController.h; path = CollectionView/BookListCollectionViewController.h; sourceTree = "<group>"; };
+		632F870B1EFB8B460011BBCD /* BookListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListCollectionViewController.m; path = CollectionView/BookListCollectionViewController.m; sourceTree = "<group>"; };
+		632F870D1EFB8B5D0011BBCD /* BookListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListTableViewController.h; path = TableView/BookListTableViewController.h; sourceTree = "<group>"; };
+		632F870E1EFB8B5D0011BBCD /* BookListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListTableViewController.m; path = TableView/BookListTableViewController.m; sourceTree = "<group>"; };
+		632F87111EFC06210011BBCD /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewCell.h; path = BaseTableCell/BaseTableViewCell.h; sourceTree = "<group>"; };
+		632F87121EFC06210011BBCD /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewCell.m; path = BaseTableCell/BaseTableViewCell.m; sourceTree = "<group>"; };
+		632F87151EFC06780011BBCD /* BookListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListTableViewCell.h; path = TableViewCell/BookListTableViewCell.h; sourceTree = "<group>"; };
+		632F87161EFC06780011BBCD /* BookListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListTableViewCell.m; path = TableViewCell/BookListTableViewCell.m; sourceTree = "<group>"; };
+		632F87181EFCC7050011BBCD /* BookListTableViewCell+BookEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BookListTableViewCell+BookEntity.h"; path = "TableViewCell/BookListTableViewCell+BookEntity.h"; sourceTree = "<group>"; };
+		632F87191EFCC7050011BBCD /* BookListTableViewCell+BookEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BookListTableViewCell+BookEntity.m"; path = "TableViewCell/BookListTableViewCell+BookEntity.m"; sourceTree = "<group>"; };
+		632F87941F03F81F0011BBCD /* BookFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookFPSLabel.h; path = BookCollection/Helper/FPS/BookFPSLabel.h; sourceTree = "<group>"; };
+		632F87951F03F81F0011BBCD /* BookFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookFPSLabel.m; path = BookCollection/Helper/FPS/BookFPSLabel.m; sourceTree = "<group>"; };
+		6349F8DD1EEFFCDB00D72C8A /* BookBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookBaseViewController.h; path = BaseViewController/BookBaseViewController.h; sourceTree = "<group>"; };
+		6349F8DE1EEFFCDB00D72C8A /* BookBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookBaseViewController.m; path = BaseViewController/BookBaseViewController.m; sourceTree = "<group>"; };
+		6349F8E21EEFFD4800D72C8A /* BookBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookBaseNavigationViewController.h; path = BaseNavigationController/BookBaseNavigationViewController.h; sourceTree = "<group>"; };
+		6349F8E31EEFFD4800D72C8A /* BookBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookBaseNavigationViewController.m; path = BaseNavigationController/BookBaseNavigationViewController.m; sourceTree = "<group>"; };
+		6349F8E51EF015A700D72C8A /* BookCollection-Profix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookCollection-Profix.pch"; sourceTree = "<group>"; };
 		63CE65311ECD384000F2A3AA /* BookCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CE65351ECD384000F2A3AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63CE65371ECD384000F2A3AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +137,11 @@
 		63CE65551ECD384000F2A3AA /* BookCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CE65591ECD384000F2A3AA /* BookCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCollectionUITests.m; sourceTree = "<group>"; };
 		63CE655B1ECD384000F2A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE618CC99BB1E9990847B20 /* Pods-BookCollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCollectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookCollectionTests/Pods-BookCollectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2D524465520E90859518C06 /* Pods-BookCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookCollection/Pods-BookCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FC799B524CFAF8342A2DA5 /* Pods-BookCollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCollectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookCollectionUITests/Pods-BookCollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6FB45C512A74A6CB9E09989 /* Pods-BookCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookCollection/Pods-BookCollection.release.xcconfig"; sourceTree = "<group>"; };
+		FF1B4ED8D1C6B56C929DD47B /* Pods-BookCollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCollectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookCollectionTests/Pods-BookCollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83442228130AF5F61B2F9FBE /* libPods-BookCollection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068DB912E2DEB819221D8A07 /* libPods-BookCollectionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +165,321 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC208525CE487B8062D6B62 /* libPods-BookCollectionUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62D7B71879C1FCAA189C4484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494C480CC8D8A02EDC00039A /* libPods-BookCollection.a */,
+				4A67BA72221F86A502122213 /* libPods-BookCollectionTests.a */,
+				18751B31B01B6C8E0169D55F /* libPods-BookCollectionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631127921EEA999900CE4EDF /* BookAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				631127931EEA999900CE4EDF /* BookAnalyticsViewController.h */,
+				631127941EEA999900CE4EDF /* BookAnalyticsViewController.m */,
+			);
+			name = BookAnalytics;
+			path = Modules/BookAnalytics;
+			sourceTree = "<group>";
+		};
+		631127951EEA999900CE4EDF /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				632F87141EFC06430011BBCD /* TableViewCell */,
+				632F87091EFB8AA60011BBCD /* CollectionView */,
+				632F87081EFB8A940011BBCD /* TableView */,
+				631127961EEA999900CE4EDF /* BookListViewController.h */,
+				631127971EEA999900CE4EDF /* BookListViewController.m */,
+			);
+			name = BookList;
+			path = Modules/BookList;
+			sourceTree = "<group>";
+		};
+		631127981EEA999900CE4EDF /* BookScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6311279E1EEE780400CE4EDF /* ScanView */,
+				631127991EEA999900CE4EDF /* BookScannerViewController.h */,
+				6311279A1EEA999900CE4EDF /* BookScannerViewController.m */,
+			);
+			name = BookScanner;
+			path = Modules/BookScanner;
+			sourceTree = "<group>";
+		};
+		6311279E1EEE780400CE4EDF /* ScanView */ = {
+			isa = PBXGroup;
+			children = (
+				6311279F1EEE784400CE4EDF /* BookScanView.h */,
+				631127A01EEE784400CE4EDF /* BookScanView.m */,
+			);
+			name = ScanView;
+			sourceTree = "<group>";
+		};
+		632F86A51EF11B850011BBCD /* Model 模型 */ = {
+			isa = PBXGroup;
+			children = (
+				632F86B91EF12D9F0011BBCD /* Tag */,
+				632F86B51EF12D2A0011BBCD /* Translator */,
+				632F86AB1EF11D660011BBCD /* Author */,
+				632F86AA1EF11D620011BBCD /* Entity */,
+				632F86A61EF11B970011BBCD /* Base */,
+			);
+			name = "Model 模型";
+			sourceTree = "<group>";
+		};
+		632F86A61EF11B970011BBCD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				632F86A71EF11BCB0011BBCD /* BookBaseModel.h */,
+				632F86A81EF11BCB0011BBCD /* BookBaseModel.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		632F86AA1EF11D620011BBCD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				632F86AC1EF11DB30011BBCD /* BookEntity.h */,
+				632F86AD1EF11DB30011BBCD /* BookEntity.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		632F86AB1EF11D660011BBCD /* Author */ = {
+			isa = PBXGroup;
+			children = (
+				632F86B21EF12B550011BBCD /* BookAuthor.h */,
+				632F86B31EF12B550011BBCD /* BookAuthor.m */,
+			);
+			name = Author;
+			sourceTree = "<group>";
+		};
+		632F86B51EF12D2A0011BBCD /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				632F86B61EF12D650011BBCD /* BookTranslator.h */,
+				632F86B71EF12D650011BBCD /* BookTranslator.m */,
+			);
+			name = Translator;
+			sourceTree = "<group>";
+		};
+		632F86B91EF12D9F0011BBCD /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				632F86BA1EF12DBB0011BBCD /* BookTag.h */,
+				632F86BB1EF12DBB0011BBCD /* BookTag.m */,
+			);
+			name = Tag;
+			sourceTree = "<group>";
+		};
+		632F86BD1EF12F3A0011BBCD /* BookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				632F86BE1EF12FE60011BBCD /* BookDetailViewController.h */,
+				632F86BF1EF12FE60011BBCD /* BookDetailViewController.m */,
+			);
+			name = BookDetail;
+			sourceTree = "<group>";
+		};
+		632F86DF1EF36EC80011BBCD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				632F87931F03F7AA0011BBCD /* FPS */,
+				632F86E01EF36EDF0011BBCD /* DB */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		632F86E01EF36EDF0011BBCD /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				632F86E11EF36F330011BBCD /* BookDBHelper.h */,
+				632F86E21EF36F330011BBCD /* BookDBHelper.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		632F86E41EF5A1C80011BBCD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				632F87041EF9086F0011BBCD /* BookList */,
+				632F87001EF6B24C0011BBCD /* BookDetail */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		632F86E51EF5A1D90011BBCD /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				632F86ED1EF6795A0011BBCD /* Tag */,
+				632F86EC1EF679470011BBCD /* Translator */,
+				632F86EB1EF6793F0011BBCD /* Author */,
+				632F86EA1EF679330011BBCD /* Entity */,
+				632F86E61EF5A1ED0011BBCD /* Base */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		632F86E61EF5A1ED0011BBCD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				632F86E71EF5A2620011BBCD /* BookBaseDAO.h */,
+				632F86E81EF5A2620011BBCD /* BookBaseDAO.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		632F86EA1EF679330011BBCD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				632F86F11EF693E80011BBCD /* BookEntityDAO.h */,
+				632F86F21EF693E80011BBCD /* BookEntityDAO.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		632F86EB1EF6793F0011BBCD /* Author */ = {
+			isa = PBXGroup;
+			children = (
+				632F86F41EF694160011BBCD /* BookAuthorDAO.h */,
+				632F86F51EF694160011BBCD /* BookAuthorDAO.m */,
+			);
+			name = Author;
+			sourceTree = "<group>";
+		};
+		632F86EC1EF679470011BBCD /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				632F86FD1EF6B06D0011BBCD /* BookTranslatorDAO.h */,
+				632F86FE1EF6B06D0011BBCD /* BookTranslatorDAO.m */,
+			);
+			name = Translator;
+			sourceTree = "<group>";
+		};
+		632F86ED1EF6795A0011BBCD /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				632F86FA1EF6944C0011BBCD /* BookTagDAO.h */,
+				632F86FB1EF6944C0011BBCD /* BookTagDAO.m */,
+			);
+			name = Tag;
+			sourceTree = "<group>";
+		};
+		632F87001EF6B24C0011BBCD /* BookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				632F87011EF6B2840011BBCD /* BookDetailService.h */,
+				632F87021EF6B2840011BBCD /* BookDetailService.m */,
+			);
+			name = BookDetail;
+			sourceTree = "<group>";
+		};
+		632F87041EF9086F0011BBCD /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				632F87051EF908970011BBCD /* BookListService.h */,
+				632F87061EF908970011BBCD /* BookListService.m */,
+			);
+			name = BookList;
+			sourceTree = "<group>";
+		};
+		632F87081EFB8A940011BBCD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				632F870D1EFB8B5D0011BBCD /* BookListTableViewController.h */,
+				632F870E1EFB8B5D0011BBCD /* BookListTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		632F87091EFB8AA60011BBCD /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				632F870A1EFB8B460011BBCD /* BookListCollectionViewController.h */,
+				632F870B1EFB8B460011BBCD /* BookListCollectionViewController.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		632F87101EFC05E00011BBCD /* BaseTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				632F87111EFC06210011BBCD /* BaseTableViewCell.h */,
+				632F87121EFC06210011BBCD /* BaseTableViewCell.m */,
+			);
+			name = BaseTableCell;
+			sourceTree = "<group>";
+		};
+		632F87141EFC06430011BBCD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				632F87151EFC06780011BBCD /* BookListTableViewCell.h */,
+				632F87161EFC06780011BBCD /* BookListTableViewCell.m */,
+				632F87181EFCC7050011BBCD /* BookListTableViewCell+BookEntity.h */,
+				632F87191EFCC7050011BBCD /* BookListTableViewCell+BookEntity.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		632F87931F03F7AA0011BBCD /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				632F87941F03F81F0011BBCD /* BookFPSLabel.h */,
+				632F87951F03F81F0011BBCD /* BookFPSLabel.m */,
+			);
+			name = FPS;
+			sourceTree = "<group>";
+		};
+		6349F8DC1EEFFC8E00D72C8A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				632F87101EFC05E00011BBCD /* BaseTableCell */,
+				6349F8E11EEFFD0300D72C8A /* BaseNavigationController */,
+				6349F8E01EEFFCE200D72C8A /* BaseViewController */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		6349F8E01EEFFCE200D72C8A /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6349F8DD1EEFFCDB00D72C8A /* BookBaseViewController.h */,
+				6349F8DE1EEFFCDB00D72C8A /* BookBaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		6349F8E11EEFFD0300D72C8A /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				6349F8E21EEFFD4800D72C8A /* BookBaseNavigationViewController.h */,
+				6349F8E31EEFFD4800D72C8A /* BookBaseNavigationViewController.m */,
+			);
+			name = BaseNavigationController;
+			sourceTree = "<group>";
+		};
 		63CE65281ECD384000F2A3AA = {
 			isa = PBXGroup;
 			children = (
+				632F86E51EF5A1D90011BBCD /* DAO */,
+				632F86E41EF5A1C80011BBCD /* Service */,
+				632F86DF1EF36EC80011BBCD /* Helper */,
 				63CE65331ECD384000F2A3AA /* BookCollection */,
 				63CE654D1ECD384000F2A3AA /* BookCollectionTests */,
 				63CE65581ECD384000F2A3AA /* BookCollectionUITests */,
 				63CE65321ECD384000F2A3AA /* Products */,
+				6DF009443B3CAD13A30AAB89 /* Pods */,
+				62D7B71879C1FCAA189C4484 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +496,9 @@
 		63CE65331ECD384000F2A3AA /* BookCollection */ = {
 			isa = PBXGroup;
 			children = (
-				63CE65371ECD384000F2A3AA /* AppDelegate.h */,
-				63CE65381ECD384000F2A3AA /* AppDelegate.m */,
-				63CE653A1ECD384000F2A3AA /* ViewController.h */,
-				63CE653B1ECD384000F2A3AA /* ViewController.m */,
-				63CE653D1ECD384000F2A3AA /* Main.storyboard */,
-				63CE65401ECD384000F2A3AA /* Assets.xcassets */,
-				63CE65421ECD384000F2A3AA /* LaunchScreen.storyboard */,
-				63CE65451ECD384000F2A3AA /* Info.plist */,
+				632F86A51EF11B850011BBCD /* Model 模型 */,
+				6349F8DC1EEFFC8E00D72C8A /* General */,
+				63CE65671ECD464700F2A3AA /* Modules 单元模块 */,
 				63CE65341ECD384000F2A3AA /* Supporting Files */,
 			);
 			path = BookCollection;
@@ -117,7 +507,16 @@
 		63CE65341ECD384000F2A3AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63CE65371ECD384000F2A3AA /* AppDelegate.h */,
+				63CE65381ECD384000F2A3AA /* AppDelegate.m */,
+				63CE653A1ECD384000F2A3AA /* ViewController.h */,
+				63CE653B1ECD384000F2A3AA /* ViewController.m */,
+				63CE653D1ECD384000F2A3AA /* Main.storyboard */,
+				63CE65401ECD384000F2A3AA /* Assets.xcassets */,
+				63CE65421ECD384000F2A3AA /* LaunchScreen.storyboard */,
+				63CE65451ECD384000F2A3AA /* Info.plist */,
 				63CE65351ECD384000F2A3AA /* main.m */,
+				6349F8E51EF015A700D72C8A /* BookCollection-Profix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +539,30 @@
 			path = BookCollectionUITests;
 			sourceTree = "<group>";
 		};
+		63CE65671ECD464700F2A3AA /* Modules 单元模块 */ = {
+			isa = PBXGroup;
+			children = (
+				632F86BD1EF12F3A0011BBCD /* BookDetail */,
+				631127921EEA999900CE4EDF /* BookAnalytics */,
+				631127951EEA999900CE4EDF /* BookList */,
+				631127981EEA999900CE4EDF /* BookScanner */,
+			);
+			name = "Modules 单元模块";
+			sourceTree = "<group>";
+		};
+		6DF009443B3CAD13A30AAB89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2D524465520E90859518C06 /* Pods-BookCollection.debug.xcconfig */,
+				D6FB45C512A74A6CB9E09989 /* Pods-BookCollection.release.xcconfig */,
+				FF1B4ED8D1C6B56C929DD47B /* Pods-BookCollectionTests.debug.xcconfig */,
+				BAE618CC99BB1E9990847B20 /* Pods-BookCollectionTests.release.xcconfig */,
+				436DA1B884FC4B4847DAB657 /* Pods-BookCollectionUITests.debug.xcconfig */,
+				D1FC799B524CFAF8342A2DA5 /* Pods-BookCollectionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +570,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63CE655E1ECD384000F2A3AA /* Build configuration list for PBXNativeTarget "BookCollection" */;
 			buildPhases = (
+				43CDD22DF8C38CDE2E25554C /* [CP] Check Pods Manifest.lock */,
 				63CE652D1ECD384000F2A3AA /* Sources */,
 				63CE652E1ECD384000F2A3AA /* Frameworks */,
 				63CE652F1ECD384000F2A3AA /* Resources */,
+				CACBED4CF35090FDA5B60130 /* [CP] Embed Pods Frameworks */,
+				BD9ED125494E2721309669D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +590,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63CE65611ECD384000F2A3AA /* Build configuration list for PBXNativeTarget "BookCollectionTests" */;
 			buildPhases = (
+				09A248FB83A56013FEF0487E /* [CP] Check Pods Manifest.lock */,
 				63CE65461ECD384000F2A3AA /* Sources */,
 				63CE65471ECD384000F2A3AA /* Frameworks */,
 				63CE65481ECD384000F2A3AA /* Resources */,
+				13EF2FBECF46F95B82B1E9B9 /* [CP] Embed Pods Frameworks */,
+				2DF84B54387EFFCFF6007293 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +611,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63CE65641ECD384000F2A3AA /* Build configuration list for PBXNativeTarget "BookCollectionUITests" */;
 			buildPhases = (
+				80ADA7C77CCD902CC4675058 /* [CP] Check Pods Manifest.lock */,
 				63CE65511ECD384000F2A3AA /* Sources */,
 				63CE65521ECD384000F2A3AA /* Frameworks */,
 				63CE65531ECD384000F2A3AA /* Resources */,
+				E54DD82A2007D70019DFEF1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +638,7 @@
 				TargetAttributes = {
 					63CE65301ECD384000F2A3AA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UGPNRF9TZ2;
 						ProvisioningStyle = Automatic;
 					};
 					63CE65491ECD384000F2A3AA = {
@@ -268,14 +700,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09A248FB83A56013FEF0487E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		13EF2FBECF46F95B82B1E9B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookCollectionTests/Pods-BookCollectionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF84B54387EFFCFF6007293 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookCollectionTests/Pods-BookCollectionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CDD22DF8C38CDE2E25554C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80ADA7C77CCD902CC4675058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9ED125494E2721309669D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookCollection/Pods-BookCollection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACBED4CF35090FDA5B60130 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookCollection/Pods-BookCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54DD82A2007D70019DFEF1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookCollectionUITests/Pods-BookCollectionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63CE652D1ECD384000F2A3AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6349F8DF1EEFFCDB00D72C8A /* BookBaseViewController.m in Sources */,
+				632F86A91EF11BCB0011BBCD /* BookBaseModel.m in Sources */,
+				632F87961F03F81F0011BBCD /* BookFPSLabel.m in Sources */,
+				632F86AE1EF11DB30011BBCD /* BookEntity.m in Sources */,
+				632F86E91EF5A2620011BBCD /* BookBaseDAO.m in Sources */,
+				632F87071EF908970011BBCD /* BookListService.m in Sources */,
 				63CE653C1ECD384000F2A3AA /* ViewController.m in Sources */,
 				63CE65391ECD384000F2A3AA /* AppDelegate.m in Sources */,
+				632F86BC1EF12DBB0011BBCD /* BookTag.m in Sources */,
+				632F87131EFC06210011BBCD /* BaseTableViewCell.m in Sources */,
+				6311279B1EEA999900CE4EDF /* BookAnalyticsViewController.m in Sources */,
+				6311279C1EEA999900CE4EDF /* BookListViewController.m in Sources */,
+				632F87171EFC06780011BBCD /* BookListTableViewCell.m in Sources */,
+				631127A11EEE784400CE4EDF /* BookScanView.m in Sources */,
+				632F86B81EF12D650011BBCD /* BookTranslator.m in Sources */,
+				632F871A1EFCC7050011BBCD /* BookListTableViewCell+BookEntity.m in Sources */,
+				632F86E31EF36F330011BBCD /* BookDBHelper.m in Sources */,
+				632F86FF1EF6B06D0011BBCD /* BookTranslatorDAO.m in Sources */,
+				6349F8E41EEFFD4800D72C8A /* BookBaseNavigationViewController.m in Sources */,
+				632F86C01EF12FE60011BBCD /* BookDetailViewController.m in Sources */,
+				632F86B41EF12B550011BBCD /* BookAuthor.m in Sources */,
+				6311279D1EEA999900CE4EDF /* BookScannerViewController.m in Sources */,
+				632F86F61EF694160011BBCD /* BookAuthorDAO.m in Sources */,
+				632F870F1EFB8B5D0011BBCD /* BookListTableViewController.m in Sources */,
+				632F870C1EFB8B460011BBCD /* BookListCollectionViewController.m in Sources */,
+				632F86F31EF693E80011BBCD /* BookEntityDAO.m in Sources */,
+				632F87031EF6B2840011BBCD /* BookDetailService.m in Sources */,
 				63CE65361ECD384000F2A3AA /* main.m in Sources */,
+				632F86FC1EF6944C0011BBCD /* BookTagDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +951,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +992,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -420,28 +1001,39 @@
 		};
 		63CE655F1ECD384000F2A3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D524465520E90859518C06 /* Pods-BookCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UGPNRF9TZ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/BookCollection-Profix.pch";
 				INFOPLIST_FILE = BookCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.BookCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.BookCollection2017NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		63CE65601ECD384000F2A3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FB45C512A74A6CB9E09989 /* Pods-BookCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UGPNRF9TZ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/BookCollection-Profix.pch";
 				INFOPLIST_FILE = BookCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.BookCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.study.BookCollection2017NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		63CE65621ECD384000F2A3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1B4ED8D1C6B56C929DD47B /* Pods-BookCollectionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BookCollectionTests/Info.plist;
@@ -454,6 +1046,7 @@
 		};
 		63CE65631ECD384000F2A3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE618CC99BB1E9990847B20 /* Pods-BookCollectionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BookCollectionTests/Info.plist;
@@ -466,6 +1059,7 @@
 		};
 		63CE65651ECD384000F2A3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436DA1B884FC4B4847DAB657 /* Pods-BookCollectionUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BookCollectionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +1071,7 @@
 		};
 		63CE65661ECD384000F2A3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FC799B524CFAF8342A2DA5 /* Pods-BookCollectionUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BookCollectionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +1100,7 @@
 				63CE65601ECD384000F2A3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CE65611ECD384000F2A3AA /* Build configuration list for PBXNativeTarget "BookCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +1109,7 @@
 				63CE65631ECD384000F2A3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CE65641ECD384000F2A3AA /* Build configuration list for PBXNativeTarget "BookCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +1118,7 @@
 				63CE65661ECD384000F2A3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
